@@ -1,0 +1,35 @@
+{
+    "usuarios": [
+      {
+        "name": "Eric Theodore Cartman",
+        "email": "eric.cartman@southpark.com",
+        "password": "Senha123"
+      },
+      {
+        "name": "Stanley Randall Marsh",
+        "email": "stan.marsh@southpark.com",
+        "password": "Senha123"
+      },
+      {
+        "name": "Kyle Broflovski",
+        "email": "kyle.broflovski@southpark.com",
+        "password": "Senha123"
+      },
+      {
+        "name": "Kenneth McCormick",
+        "email": "kenny.mccormick@southpark.com",
+        "password": "Senha123"
+      },
+      {
+        "name": "Leopold Butters Stotch",
+        "email": "butters.stotch@southpark.com",
+        "password": "Senha123"
+      },
+      {
+        "name": "Wendy Testaburger",
+        "email": "wendy.testaburger@southpark.com",
+        "password": "Senha123"
+      }
+    ]
+  }
+  

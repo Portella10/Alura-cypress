@@ -1,0 +1,144 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-12-11T21:14:29.318Z",
+    "end": "2024-12-11T21:14:32.996Z",
+    "duration": 3678,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "ee5db158-6243-4d85-bd40-d7b49a4a5666",
+      "title": "",
+      "fullFile": "cypress/e2e/pagina-inicial.cy.js",
+      "file": "cypress/e2e/pagina-inicial.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "356c36bf-d31d-4956-87f1-d8ce18e96bb4",
+          "title": "Pagina inicial",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Verificando se o title",
+              "fullTitle": "Pagina inicial Verificando se o title",
+              "timedOut": null,
+              "duration": 293,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.title().should('eq', 'AdoPet');",
+              "err": {},
+              "uuid": "22fe6bdb-b541-488e-b627-51b9372c0451",
+              "parentUUID": "356c36bf-d31d-4956-87f1-d8ce18e96bb4",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "verificando o texto",
+              "fullTitle": "Pagina inicial verificando o texto",
+              "timedOut": null,
+              "duration": 248,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.contains(\"Quem ama adota!\").should(\"be.visible\");\ncy.contains(\"Adotar pode mudar uma vida. Que tal buscar seu novo melhor amigo hoje? Vem com a gente!\").should(\"be.visible\");",
+              "err": {},
+              "uuid": "c727d8e7-6a9c-48d4-8394-a6ef50be7996",
+              "parentUUID": "356c36bf-d31d-4956-87f1-d8ce18e96bb4",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Tentando fazer login pelo ícone de mensagem",
+              "fullTitle": "Pagina inicial Tentando fazer login pelo ícone de mensagem",
+              "timedOut": null,
+              "duration": 1495,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('.header__message').click();\ncy.login(\"joaoVitor@gmail.com\", \"Senha123\");",
+              "err": {},
+              "uuid": "3569e350-3503-4bd0-aa0b-3959828634b2",
+              "parentUUID": "356c36bf-d31d-4956-87f1-d8ce18e96bb4",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "22fe6bdb-b541-488e-b627-51b9372c0451",
+            "c727d8e7-6a9c-48d4-8394-a6ef50be7996",
+            "3569e350-3503-4bd0-aa0b-3959828634b2"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2036,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/results",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "timestamp": "mmddyyyy_HHMMss"
+      },
+      "version": "6.2.0"
+    }
+  }
+}

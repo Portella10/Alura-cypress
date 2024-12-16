@@ -1,0 +1,106 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-12-11T21:10:04.292Z",
+    "end": "2024-12-11T21:10:06.297Z",
+    "duration": 2005,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "e34d229a-177b-461b-9fa6-30088a1b4645",
+      "title": "",
+      "fullFile": "cypress/e2e/imagens.cy.js",
+      "file": "cypress/e2e/imagens.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "1c8e4a00-6968-4e80-9534-d56ecc3acffa",
+          "title": "Imagens",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Verificando imagens do home",
+              "fullTitle": "Imagens Verificando imagens do home",
+              "timedOut": null,
+              "duration": 514,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('#root > main > section > div > div:nth-child(1) > img').should(\"be.visible\");\ncy.get('.cards > :nth-child(2) > img').should(\"be.visible\");\ncy.get(':nth-child(3) > img').should(\"be.visible\");\ncy.get(':nth-child(4) > img').should(\"be.visible\");\ncy.get(':nth-child(5) > img').should(\"be.visible\");\ncy.get(':nth-child(5) > img').should(\"be.visible\");",
+              "err": {},
+              "uuid": "c4ab7c0e-7a1a-4a35-a835-652bfebbca70",
+              "parentUUID": "1c8e4a00-6968-4e80-9534-d56ecc3acffa",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "c4ab7c0e-7a1a-4a35-a835-652bfebbca70"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 514,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/results",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "timestamp": "mmddyyyy_HHMMss"
+      },
+      "version": "6.2.0"
+    }
+  }
+}
